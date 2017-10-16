@@ -294,19 +294,19 @@ $(window).load(function() {
 		});
 
 	// funcion hover de miniaturas de aplicaciones ******************************************************
-		$(".columns-four").hover(function() {
-			$(this).children(".thumb-column-background").children(".thumb-column").stop(true).animate({
-				opacity: 1,
-			},400, function() {
-				/* stuff to do after animation is complete */
-			});
-		}, function() {
-			$(this).children(".thumb-column-background").children(".thumb-column").stop(true).animate({
-				opacity: 0.4,
-			},400, function() {
-				/* stuff to do after animation is complete */
-			});
-		})
+		// $(".columns-four").hover(function() {
+		// 	$(this).children(".thumb-column-background").children(".thumb-column").stop(true).animate({
+		// 		opacity: 1,
+		// 	},400, function() {
+		// 		/* stuff to do after animation is complete */
+		// 	});
+		// }, function() {
+		// 	$(this).children(".thumb-column-background").children(".thumb-column").stop(true).animate({
+		// 		opacity: 0.4,
+		// 	},400, function() {
+		// 		/* stuff to do after animation is complete */
+		// 	});
+		// })
 	// fin  hover de miniaturas **************************************************************************
 
 

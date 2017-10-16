@@ -234,6 +234,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', end
 	position: absolute;
 	width: 83%;
 	left: 17%;
+	/*filter: blur(2px);*/
 	opacity: 0;
 }
 
@@ -498,8 +499,8 @@ ul.social li a:hover{
 .portfolio-content{
 	position: relative;
 	margin-top: 3%;
-	margin-left: 5%;
-	width: 90%;
+	margin-left: 10%;
+	width: 80%;
 	/*width: auto;*/
 	height: 100%;
 
@@ -557,25 +558,37 @@ ul.social li a:hover{
 	display: inline-block;
 	width: 220px;
 	/*height: 180px;*/
-	margin: 0% 6px 2% 6px;
+	/*margin: 0% 6px 2% 6px;*/
+	margin: 0% 2% 4% 2%;
 	/*height: auto;*/
 	background-color: white;
 	cursor:pointer;
 	cursor:hand;
-
-
 }
+
+
 .thumb-column-background{
 	background-color: black;
 	height: 180px;
-
+	overflow: hidden;
 }
 .thumb-column{
 	width: 220px;
 	height: 180px;
 	/*border: solid white 1px;*/
 	opacity: 0.6;
+	/*transform: scale(1), ease;*/
+	transition: all .5s ease;
+
+
 }
+.thumb-column:hover{
+	transition: all .5s ease;
+	transform: scale(1.2);
+	opacity: 1;
+}
+
+
 .column-description{
 	/*margin-top: 9px;*/
 	padding-top: 10px;
