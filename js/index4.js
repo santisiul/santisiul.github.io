@@ -266,7 +266,7 @@ $(window).load(function() {
 							},1200, function() {
 								$(".portfolio").css('display', 'block');
 								$(".portfolio").stop(true).animate({
-									left: '0',
+									left: '17%',
 									opacity: 1
 									},600, function() {
 								});
