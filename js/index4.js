@@ -232,12 +232,12 @@ $(window).load(function() {
 			activeActual.stop(true).animate({
 				width: '0%',
 				left: '100%'
-				},800, function() {									
+				},500, function() {									
 			});
 			active.stop(true).animate({			
 				width: '90%',
 				left: '10%'
-				},800, function() {
+				},500, function() {
 					if(nav=="Acerca de Mi" && navActual!="Acerca de Mi"){					
 						
 						hide_sections();					
@@ -263,14 +263,15 @@ $(window).load(function() {
 						$(".portfolio-background").css('display','block');			
 						$(".portfolio-background").stop(true).animate({
 							opacity: '1',
-							},1200, function() {
-								$(".portfolio").css('display', 'block');
+							},500, function() {
+								
+						});
+						$(".portfolio").css('display', 'block');
 								$(".portfolio").stop(true).animate({
 									left: '17%',
 									opacity: 1
 									},600, function() {
 								});
-						});
 									
 					}
 					
