@@ -493,7 +493,7 @@ ul.social li a:hover{
 	height: 100%;
 	display: none;	
 
-	/*background-color: green;*/
+	background-color: green;
 }
 
 .portfolio-content{
@@ -504,7 +504,7 @@ ul.social li a:hover{
 	/*width: auto;*/
 	height: 100%;
 
-	/*background-color: red;*/
+	background-color: red;
 }
 
 .nav{
@@ -514,23 +514,24 @@ ul.social li a:hover{
 .nav span{
 	margin-left: 8%;
 	margin-right: 25%;	
-	width: 10%;
+	width: 20%;
 	float: left;
 	/*padding: 3px 0px 3px 0px;*/
 	/*text-transform: uppercase;*/
 	text-align: center;
 	/*font-size: 1em;*/
+	background-color: grey;
 }
 
 .nav ul{
 	/*list-style-type: none;*/
-	/*border: solid red;*/
 }
 .nav ul li{
 	display: inline-block;	
 	text-align: center;	
 	padding: 5px 0px 5px 0px;
 	/*border: solid yellow;*/
+
 }
 
 
@@ -549,17 +550,18 @@ ul.social li a:hover{
 	/*color: white;*/
 }
 .columns-content{
-	padding-top: 3%;
+	/*position: absolute;*/
+	padding-top: 2%;
 	text-align: center;
-
-	/*background-color: blue;*/
+	background-color: blue;
 }
 .columns-four{
+	position: relative;
 	display: inline-block;
 	width: 220px;
 	/*height: 180px;*/
 	/*margin: 0% 6px 2% 6px;*/
-	margin: 0% 2% 4% 2%;
+	margin: 2% 2% 2% 2%;
 	/*height: auto;*/
 	background-color: white;
 	cursor:pointer;
