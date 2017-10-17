@@ -1034,6 +1034,12 @@ ul.social li a:hover{
 		/*margin: 0 2px 5% 3px;*/
 		margin: 3% 3%;
 	}
+	/*.thumb-column-background{
+		background-color: white;
+	}*/
+	.thumb-column{
+		opacity: 1;
+	}
 
 
 	.app{

@@ -374,7 +374,7 @@ $(window).load(function() {
 			$(".effect").stop(true).animate({
 				opacity: 1,
 				// param2: value2
-			},600, function() {
+			},300, function() {
 
 					$(".img-group, .app-info").each(function(){
 						if($(this).data('app')==app){
@@ -410,7 +410,7 @@ $(window).load(function() {
 				$(".effect").stop(true).animate({
 					opacity: 0,
 					// param2: value2
-				},800, function() {
+				},300, function() {
 					$(".effect").css({
 						'z-index': '0',
 					});
@@ -420,9 +420,9 @@ $(window).load(function() {
 							top: '0%',
 							left: '100%'
 						});
-						$(".app-aside").animate({
+						$(".app-aside").stop(true).animate({
 							left: '72%',
-							},400, function() {
+							},300, function() {
 							/* stuff to do after animation is complete */
 						});
 					}
@@ -433,8 +433,7 @@ $(window).load(function() {
 						});
 						$(".app-show-info").stop(true).animate({
 							top: '92%',
-							},
-							400, function() {
+							},300, function() {
 							/* stuff to do after animation is complete */
 						});
 						// $(".app-aside").animate({
@@ -469,7 +468,7 @@ $(window).load(function() {
 					})
 					.stop(true).animate({
 						opacity: 1,
-						},700, function() {
+						},500, function() {
 						/* stuff to do after animation is complete */
 					})
 					.prependTo($(this));
@@ -498,7 +497,7 @@ $(window).load(function() {
 					})
 					.stop(true).animate({
 						opacity: 1,
-						},700, function() {
+						},500, function() {
 						/* stuff to do after animation is complete */
 					});
 								
@@ -509,14 +508,14 @@ $(window).load(function() {
 		$("#close").click(function(){
 			$(".app-aside").animate({
 				left: '100%',
-				},400, function() {
+				},300, function() {
 						$(".effect").css({
 							'z-index': '10',
 						});
 						$(".effect").stop(true).animate({
 							opacity: 1,
 							// param2: value2
-							},800, function() {
+							},300, function() {
 								$(".app").css({
 									left: '100%',
 									display: 'none'
@@ -524,7 +523,7 @@ $(window).load(function() {
 								$(".effect").stop(true).animate({
 									opacity: 0,
 									// param2: value2
-									},600,function(){
+									},300,function(){
 										$(".effect").css({
 											'z-index': '0',
 										});
