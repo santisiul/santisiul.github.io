@@ -77,10 +77,13 @@ $(window).load(function() {
 				anim_left='0%';
 				about_ini='80%';
 				contact_top='0%';
+				portfolio_width='100%';
+
 				nav_vertical.css('display', 'none');
 				appAside_left='0%';
 				scrollbarAbout='inside';
 				info_top="up";
+
 				$('.app-show-info').css({
 					display: 'block'
 				}).stop(true).animate({
@@ -104,6 +107,8 @@ $(window).load(function() {
 				anim_left='17%';
 				about_ini='18%';
 				contact_top='10%';	
+				portfolio_width='83%';
+
 				nav_vertical.css('display', 'block');
 				appAside_left='72%';
 				appAside_top='0%';
@@ -139,6 +144,23 @@ $(window).load(function() {
 			$(".about").mCustomScrollbar({
 				theme:"inset-3-dark",
 				scrollbarPosition: scrollbarAbout		
+			});
+			if($(".portfolio").css('display')!='none'){					
+				$(".portfolio").stop(true).stop(true).animate({
+					left: anim_left,
+					},1000, function() {
+					/* stuff to do after animation is complete */
+				});
+			}
+			$(".portfolio").mCustomScrollbar({
+				theme:"inset-3-dark",
+				scrollbarPosition: scrollbarAbout		
+			});			
+
+
+			$(".portfolio-background").css({
+				left: anim_left,
+				width: portfolio_width
 			});
 
 		});
@@ -267,11 +289,11 @@ $(window).load(function() {
 								
 						});
 						$(".portfolio").css('display', 'block');
-								$(".portfolio").stop(true).animate({
-									left: '17%',
-									opacity: 1
-									},600, function() {
-								});
+						$(".portfolio").stop(true).animate({
+							left: anim_left,
+							opacity: 1
+							},600, function() {
+						});
 									
 					}
 					

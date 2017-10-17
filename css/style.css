@@ -230,13 +230,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', end
 	opacity: 0;
 	/*display: none;*/
 }
-.background_main{
-	position: absolute;
-	width: 83%;
-	left: 17%;
-	/*filter: blur(2px);*/
-	opacity: 0;
-}
 
 .slideShowDown, .slideShowUp{
 	position: absolute;
@@ -486,6 +479,15 @@ ul.social li a:hover{
 
 
 /*Portafolio ----------------------------------------------------------*/
+.portfolio-background{
+	position: absolute;
+	width: 83%;
+	height: 100%;
+	left: 17%;
+	/*filter: blur(2px);*/
+	opacity: 0;
+}
+
 .portfolio{
 	position: absolute;
 	left: 17%;
@@ -493,7 +495,7 @@ ul.social li a:hover{
 	height: 100%;
 	display: none;	
 
-	background-color: green;
+	/*background-color: green;*/
 }
 
 .portfolio-content{
@@ -504,7 +506,7 @@ ul.social li a:hover{
 	/*width: auto;*/
 	height: 100%;
 
-	background-color: red;
+	/*background-color: red;*/
 }
 
 .nav{
@@ -520,7 +522,7 @@ ul.social li a:hover{
 	/*text-transform: uppercase;*/
 	text-align: center;
 	/*font-size: 1em;*/
-	background-color: grey;
+	/*background-color: grey;*/
 }
 
 .nav ul{
@@ -553,7 +555,7 @@ ul.social li a:hover{
 	/*position: absolute;*/
 	padding-top: 2%;
 	text-align: center;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 .columns-four{
 	position: relative;
@@ -981,6 +983,13 @@ ul.social li a:hover{
 		background-color: #D9D9D9; 
 	}
 	
+
+	.portfolio-background{
+		width: 100%;
+		left: 0%;
+		/*filter: blur(2px);*/
+		opacity: 0;
+	}
 	.portfolio{
 		left: 0%;
 		width: 100%;	
