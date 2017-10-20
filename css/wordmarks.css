@@ -8,12 +8,12 @@
 
   /*src: url("wordmarks.eot") */
 
-  src: url('../fonts/wordmarks/wordmarks.eot?39030444');
-  src: url('../fonts/wordmarks/wordmarks.eot?39030444#iefix') format('embedded-opentype'),
-       url('../fonts/wordmarks/wordmarks.woff2?39030444') format('woff2'),
-       url('../fonts/wordmarks/wordmarks.woff?39030444') format('woff'),
-       url('../fonts/wordmarks/wordmarks.ttf?39030444') format('truetype'),
-       url('../fonts/wordmarks/wordmarks.svg?39030444#fontello') format('svg');
+  /*src: url('../fonts/wordmarks/wordmarks.eot?39030444');*/
+  src: url('../fonts/wordmarks/wordmarks.eot?39030444') format('embedded-opentype'),
+       url('../fonts/wordmarks/wordmarks.woff2') format('woff2'),
+       url('../fonts/wordmarks/wordmarks.woff') format('woff'),
+       url('../fonts/wordmarks/wordmarks.ttf') format('truetype'),
+       url('../fonts/wordmarks/wordmarks.svg') format('svg');
  /* font-weight: normal;
   font-style: normal;*/
 }
