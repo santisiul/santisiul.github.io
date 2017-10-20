@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: 'socialwordmarks';
+   src: url("../fonts/wordmarks.ttf");
+  /*src: url("../fonts/wordmarks.ttf?xqxft6") format("truetype") */
+ /* font-weight: normal;
+  font-style: normal;*/
+}
+
+.socialwordmark{
+  font-family: 'socialwordmarks';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  color: gray;
+  display: block;
+  /*margin-top: 2.5%;*/
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+
+.wordmark{
+ /* color: gray;
+  display: block;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  margin-left: 2%;*/
+
+}
