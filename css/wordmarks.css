@@ -1,17 +1,25 @@
 
 @font-face {
   font-family: 'socialwordmarks';
-   /*src: url("../fonts/wordmarks.ttf");*/
-  /*src: url("../fonts/wordmarks.ttf?xqxft6") format("truetype") */
+  /*src:  url('../fonts/wordmarks/wordmarks.woff');
+  src:  url('../fonts/wordmarks/wordmarks.eot');
+   src: url("../fonts/wordmarks/wordmarks.ttf");
+  src:  url('../fonts/wordmarks/wordmarks.woff2');
+  src:  url('../fonts/wordmarks/wordmarks.svg');*/
 
 
-
-  /*src: url("wordmarks.eot") */
+  /*src: url("wordmarks.eot") 
 
   /*src: url('../fonts/wordmarks/wordmarks.eot?39030444');*/
-  src: url('../fonts/wordmarks/wordmarks.eot?39030444') format('embedded-opentype'),
-       url('../fonts/wordmarks/wordmarks.woff2') format('woff2'),
-       url('../fonts/wordmarks/wordmarks.woff') format('woff'),
+ /* src: url('../fonts/wordmarks/wordmarks.eot'),
+       url('../fonts/wordmarks/wordmarks.woff2'),
+       url('../fonts/wordmarks/wordmarks.woff'),
+       url('../fonts/wordmarks/wordmarks.ttf'),
+       url('../fonts/wordmarks/wordmarks.svg');*/
+
+  src: url('../fonts/wordmarks/wordmarks.woff') format('woff'),
+       url('../fonts/wordmarks/wordmarks.eot') format('embedded-opentype'),
+       url('../fonts/wordmarks/wordmarks.woff2') format('woff2'),       
        url('../fonts/wordmarks/wordmarks.ttf') format('truetype'),
        url('../fonts/wordmarks/wordmarks.svg') format('svg');
  /* font-weight: normal;
