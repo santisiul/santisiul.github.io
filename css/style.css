@@ -19,6 +19,8 @@
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i');
+
 
 @font-face{
 	font-family: 'Electrolize';
@@ -496,45 +498,52 @@ ul.social li a:hover{
 	height: 100%;
 	display: none;	
 
-	/*background-color: green;*/
+	/*background-color: white;*/
 }
 
 .portfolio-content{
 	position: relative;
 	margin-top: 3%;
-	margin-left: 10%;
-	width: 80%;
+	margin-left: 5%;
+	width: 90%;
 	/*width: auto;*/
 	height: 100%;
 
 	/*background-color: red;*/
 }
-
+.portfolio-content h2{
+	font-size: 1.4em;
+	font-family: 'raleway-regular';
+}
 .nav{
 	/*border: solid;*/
+ 	display: block;
+
 }
 
 .nav span{
-	margin-left: 8%;
-	margin-right: 25%;	
+	/*margin-left: 8%;*/
+	/*margin-right: 25%;	*/
+	display: inline-block;
 	width: 20%;
-	float: left;
+	/*float: left;*/
 	/*padding: 3px 0px 3px 0px;*/
 	/*text-transform: uppercase;*/
 	text-align: center;
 	/*font-size: 1em;*/
-	/*background-color: grey;*/
 }
 
 .nav ul{
+	display: inline-block;
 	/*list-style-type: none;*/
+	/*float: right;*/
+	float: right;
 }
 .nav ul li{
 	display: inline-block;	
 	text-align: center;	
 	padding: 5px 0px 5px 0px;
 	/*border: solid yellow;*/
-
 }
 
 
@@ -542,7 +551,9 @@ ul.social li a:hover{
 	/*text-decoration: none;*/
 	/*text-align: center;*/
 	/*font-family: "raleway-regular", arial;*/
-    font-size: 14px;
+    font-size: 15px;
+   	color: #373737;
+
     /*border: solid;*/
     /*text-transform: uppercase;*/
 	padding: 10px 10px 10px 10px;
@@ -564,7 +575,7 @@ ul.social li a:hover{
 	width: 220px;
 	/*height: 180px;*/
 	/*margin: 0% 6px 2% 6px;*/
-	margin: 2% 2% 2% 2%;
+	margin: 2% 1% 2% 1%;
 	/*height: auto;*/
 	background-color: white;
 	cursor:pointer;
@@ -600,9 +611,12 @@ ul.social li a:hover{
 	text-align: center;
 	height: 50px;
 	font-size: 1em;
+	
+	font-family: 'play';
+	font-style: bold;
 	/*color: #6f6f6f;*/
 
-	/*background-color: white;*/
+	/*background-color: red;*/
 }
 .column-description-alter{
 	padding-top: 10px;
@@ -616,10 +630,20 @@ ul.social li a:hover{
 .column-description-alter > .thumb_title{
 	color: white;
 }
-.thumb_section{
-	color: #505050;
-
+.thumb_title{
+	color: #575757;
+	text-transform: uppercase;
 	font-size: 0.9em;
+	margin-bottom: 1%;
+}
+.thumb_section{
+	/*color: #505050;*/
+
+	color: #373737;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 0.75em;
 	font-style: italic;
 
 }
@@ -729,6 +753,7 @@ ul.social li a:hover{
 }
 .app-title{
 	/*color: #3f3f3f;*/
+	text-transform: uppercase;
 }
 .app-info .content-text p{
 	/*color: #3f3f3f;*/
